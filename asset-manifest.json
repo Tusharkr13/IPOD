@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/IPOD/static/css/main.ff57751a.css",
+    "main.js": "/IPOD/static/js/main.3ebbe512.js",
+    "index.html": "/IPOD/index.html",
+    "main.ff57751a.css.map": "/IPOD/static/css/main.ff57751a.css.map",
+    "main.3ebbe512.js.map": "/IPOD/static/js/main.3ebbe512.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff57751a.css",
+    "static/js/main.3ebbe512.js"
+  ]
+}
