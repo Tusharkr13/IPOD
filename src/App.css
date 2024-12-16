@@ -1,0 +1,135 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #edea55;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.ipod {
+  width: 300px;
+  height: 500px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #f62f2f, #99c7d3);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Screen */
+.screen {
+  width: 80%;
+  height: 50%;
+  background: #e6c5e0;
+  border-radius: 10px;
+  border: 2px solid #45d6d6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.screen h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.screen ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.screen li {
+  font-size: 1rem;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.screen li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Menu */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  font-size: 1.2rem;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.menu li.selected {
+  background: #2196f3;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Circular Menu */
+.circular-menu {
+  width: 80%;
+  height: 40%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circular-menu button {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  background: #d6b8b8;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.2s ease;
+}
+
+.circular-menu button:hover {
+  background-color: #c98787;
+  transform: scale(1.1);
+}
+
+.circular-menu button:active {
+  transform: scale(0.9);
+}
+
+.circular-menu .select {
+  position: absolute;
+  bottom: -10px;
+}
+
+.circular-menu .menu-back {
+  position: absolute;
+  top: -30px;
+}
+
+.circular-menu .rotate-cw {
+  position: absolute;
+  right: -30px;
+}
+
+.circular-menu .rotate-ccw {
+  position: absolute;
+  left: -30px;
+}
+.screen {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.screen.hidden {
+  opacity: 0;
+}
+
